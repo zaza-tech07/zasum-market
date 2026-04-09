@@ -1,24 +1,100 @@
 {
-  "name": "zasum-market-backend",
+  "name": "zasum-client",
   "version": "1.0.0",
-  "description": "Backend for ZASUM MARKET - Marketplace with escrow system",
-  "main": "server.js",
-  "type": "commonjs",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "zasum-client",
+      "version": "1.0.0",
+      "license": "MIT",
+      "dependencies": {
+        "next": "^14.3.1",
+        "react": "^18.3.0",
+        "react-dom": "^18.3.0",
+        "tailwindcss": "^4.3.2",
+        "autoprefixer": "^11.0.0",
+        "postcss": "^8.4.30"
+      }
+    },
+    "node_modules/next": {
+      "version": "14.3.1",
+      "resolved": "https://registry.npmjs.org/next/-/next-14.3.1.tgz",
+      "integrity": "sha512-KlGZrmM5gMXNYD8u6b7NYNQ7Kbk1U0EDp6HLKqE/EPYziOroXoJ+SP3NVy1B0V2c2lOnn2KPy4OiR9ogbT4QlA==",
+      "dependencies": {
+        "react": "^18.3.0",
+        "react-dom": "^18.3.0",
+        "webpack": "^5.88.0",
+        "webpack-dev-middleware": "^5.4.0",
+        "webpack-hot-middleware": "^2.25.3"
+      }
+    },
+    "node_modules/react": {
+      "version": "18.3.0",
+      "resolved": "https://registry.npmjs.org/react/-/react-18.3.0.tgz",
+      "integrity": "sha512-zQa7lChvPZjq0I6uXqZxPVr/0Oyxq3F2H5Uq7+nV2P7G4t0nIV8+FNc0wGyh4xYh0+gn0vYKbP+FyfK0eCZlGA=="
+    },
+    "node_modules/react-dom": {
+      "version": "18.3.0",
+      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-18.3.0.tgz",
+      "integrity": "sha512-kjQ2o5qVnS1A7lL1kD2ZbXGIlrJ0F3Zz85PlVfg1PLdN2RFPmyiH1lXcBvA9r2kXl+QWh6G4ydyBZoC3H3Bptg==",
+      "dependencies": {
+        "react": "^18.3.0"
+      }
+    },
+    "node_modules/tailwindcss": {
+      "version": "4.3.2",
+      "resolved": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.2.tgz",
+      "integrity": "sha512-7ZbGPhomJqzE5W+0S+VdB1tlE1a1d5p3UQbGbUqfPr1YzJyzG8He/2JKYXJQ+1u5PjkVwBHZ3owdD5afYngT0g==",
+      "dependencies": {
+        "postcss": "^8.4.30",
+        "autoprefixer": "^11.0.0"
+      }
+    },
+    "node_modules/postcss": {
+      "version": "8.4.30",
+      "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.4.30.tgz",
+      "integrity": "sha512-pCNF1q0n6C1B1gK4nEv/Tt0pZfiNJz1O+0rW6l/1mz6NwwY0ZzDrn/6Z2xJk6A7yr6ppapCkD6hRjk7b8A+1iw=="
+    },
+    "node_modules/autoprefixer": {
+      "version": "11.8.8",
+      "resolved": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-11.8.8.tgz",
+      "integrity": "sha512-3X0pKEoK8fP9U9qJmRyj5Cfx6J/mK0wN2N6ZB4hbzIYkI1F6m5C8d/TiU6YJkY3R6eF++6UJ0wYzF3kHdj3Vg==",
+      "dependencies": {
+        "postcss": "^8.4.30"
+      }
+    }
   },
-  "keywords": ["marketplace", "escrow", "backend", "nodejs", "express", "mongoDB"],
-  "author": "Isaiah",
-  "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "mongoose": "^7.5.0",
-    "morgan": "^1.10.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
+    "next": {
+      "version": "14.3.1",
+      "resolved": "https://registry.npmjs.org/next/-/next-14.3.1.tgz",
+      "integrity": "sha512-KlGZrmM5gMXNYD8u6b7NYNQ7Kbk1U0EDp6HLKqE/EPYziOroXoJ+SP3NVy1B0V2c2lOnn2KPy4OiR9ogbT4QlA=="
+    },
+    "react": {
+      "version": "18.3.0",
+      "resolved": "https://registry.npmjs.org/react/-/react-18.3.0.tgz",
+      "integrity": "sha512-zQa7lChvPZjq0I6uXqZxPVr/0Oyxq3F2H5Uq7+nV2P7G4t0nIV8+FNc0wGyh4xYh0+gn0vYKbP+FyfK0eCZlGA=="
+    },
+    "react-dom": {
+      "version": "18.3.0",
+      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-18.3.0.tgz",
+      "integrity": "sha512-kjQ2o5qVnS1A7lL1kD2ZbXGIlrJ0F3Zz85PlVfg1PLdN2RFPmyiH1lXcBvA9r2kXl+QWh6G4ydyBZoC3H3Bptg=="
+    },
+    "tailwindcss": {
+      "version": "4.3.2",
+      "resolved": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.2.tgz",
+      "integrity": "sha512-7ZbGPhomJqzE5W+0S+VdB1tlE1a1d5p3UQbGbUqfPr1YzJyzG8He/2JKYXJQ+1u5PjkVwBHZ3owdD5afYngT0g=="
+    },
+    "postcss": {
+      "version": "8.4.30",
+      "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.4.30.tgz",
+      "integrity": "sha512-pCNF1q0n6C1B1gK4nEv/Tt0pZfiNJz1O+0rW6l/1mz6NwwY0ZzDrn/6Z2xJk6A7yr6ppapCkD6hRjk7b8A+1iw=="
+    },
+    "autoprefixer": {
+      "version": "11.8.8",
+      "resolved": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-11.8.8.tgz",
+      "integrity": "sha512-3X0pKEoK8fP9U9qJmRyj5Cfx6J/mK0wN2N6ZB4hbzIYkI1F6m5C8d/TiU6YJkY3R6eF++6UJ0wYzF3kHdj3Vg=="
+    }
   }
 }
