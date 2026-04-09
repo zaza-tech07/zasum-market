@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/zaza-tech07/zasum-market/issues"
   },
-  "homepage": "https://github.com/zaza-tech07/zasum-market#readme"
+  "homepage": "https://github.com/zaza-tech07/zasum-market#readme",
+  "dependencies": {
+    "next": "^16.2.3"
+  }
 }
